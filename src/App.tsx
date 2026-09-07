@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import CurrentTime from './CurrentTime'
 import './App.css'
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         >
           Count is {count}
         </button>
+        <CurrentTime />
       </section>
 
       <div className="ticks"></div>
