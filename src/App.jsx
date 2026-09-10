@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -30,6 +31,8 @@ function App() {
           Count is {count}
         </button>
         <CurrentTime />
+        {/* <Link to="/tasks">View tasks &rarr;</Link>
+        <Link to="/flags">View flags &rarr;</Link> */}
       </section>
 
       <div className="ticks"></div>
