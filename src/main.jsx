@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 import App from './App'
-import TaskPage from './TaskPage'
-import Flags from './Flags'
+// import TaskPage from './TaskPage'
+// import Flags from './Flags'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
