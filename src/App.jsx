@@ -31,8 +31,7 @@ function App() {
           Count is {count}
         </button>
         <CurrentTime />
-        {/* <Link to="/tasks">View tasks &rarr;</Link>
-        <Link to="/flags">View flags &rarr;</Link> */}
+        <Link to="/tictactoe">Tic Tac Toe &rarr;</Link>
       </section>
 
       <div className="ticks"></div>
