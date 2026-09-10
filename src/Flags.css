@@ -1,0 +1,6 @@
+.flag-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
